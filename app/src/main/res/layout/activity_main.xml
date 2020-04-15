@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/editTxtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:backgroundTint="#989696"
+            android:hint="Share data write here (:"
+            android:gravity="center_horizontal" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/editTxtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnId"
+            android:text="Send data"/>
+
+    </RelativeLayout>
+    </layout>
